@@ -77,12 +77,10 @@ person.Is_Graduated = true;
 document.writeln("<br>");
 document.writeln("<br>");
 
-document.writeln("After Adding a New Property:" + "<br>" + "First Name: " + person.firstName + "<br>" 
-+ "Last Name: " + person.lastName + "<br>" 
-+ "Age: " + person.age + "<br>" 
-+ "Is Student: " + person.isStudent + "<br>" 
-+ "subjects: " + person.subjects + "<br>" 
-+ "Is Graduated: " + person.Is_Graduated);
+document.writeln(person.firstName + " " + person.lastName + " is Graduated: " + person.Is_Graduated);
+
+document.writeln("<br>");
+document.writeln("<br>");
 
 
 
