@@ -62,10 +62,14 @@ document.writeln("length:" + " " + fruits.length);
 document.writeln("<br>");
 document.writeln("<br>");
 
-let person = {firstName: "Tarek", lastName: "Ahmed", age: 26, isStudent: false};
-document.writeln("Person:" + "<br>" + "First Name: " + person.firstName + "<br>" 
+let person = {firstName: "Tarek", lastName: "Ahmed", age: 26, 
+    subjects: "Computer Science , Software Engineering , Information Technology" , isStudent: false};
+
+
+document.writeln("person:" + "<br>" + "First Name: " + person.firstName + "<br>" 
 + "Last Name: " + person.lastName + "<br>" 
 + "Age: " + person.age + "<br>" 
++ "subjects: " + person.subjects + "<br>" 
 + "Is Student: " + person.isStudent);
 
 person.Is_Graduated = true;
@@ -77,6 +81,7 @@ document.writeln("After Adding a New Property:" + "<br>" + "First Name: " + pers
 + "Last Name: " + person.lastName + "<br>" 
 + "Age: " + person.age + "<br>" 
 + "Is Student: " + person.isStudent + "<br>" 
++ "subjects: " + person.subjects + "<br>" 
 + "Is Graduated: " + person.Is_Graduated);
 
 
