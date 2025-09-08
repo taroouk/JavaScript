@@ -80,9 +80,6 @@ document.writeln("<br>");
 document.writeln("person Name:" + "<br>" + "First Name: " + person.firstName + "<br>" 
 + "Last Name: " + person.lastName);
 
-document.writeln("<br>");
-document.writeln("<br>");
-
 document.writeln("Is Graduated:" + " " + person.Is_Graduated);
 
 
