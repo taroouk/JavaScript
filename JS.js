@@ -77,10 +77,8 @@ person.Is_Graduated = true;
 document.writeln("<br>");
 document.writeln("<br>");
 
-document.writeln(person.firstName + " " + person.lastName + " is Graduated: " + person.Is_Graduated);
-
-document.writeln("<br>");
-document.writeln("<br>");
+document.writeln(person.firstName + " " + person.lastName 
++ "<br>" + " is Graduated: " + person.Is_Graduated);
 
 
 
